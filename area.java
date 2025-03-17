@@ -3,8 +3,8 @@ public class area{
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		float r=sc.nextInt();
-		float area=(3.14*r*r)f;
+		double r=sc.nextInt();
+		double area=(3.14)*r*r;
 		System.out.println(area);
 	}
 }
